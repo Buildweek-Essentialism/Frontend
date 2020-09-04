@@ -6,14 +6,6 @@ import { axiosWithAuth } from '../utils/axiosWithAuth';
 import { POST_DATA, POST_SUCCESS } from '../action/action'; 
 
 
-// const initialProject = {
-//   project: "",
-//   "title": "",
-//   "summary": "",
-//   "importance": "",
-//   "values": {value_name: ""}
-
-// };  
 
 const Projects = ({ projectToEdit, setProjectToEdit, editing, setEditing, initialProject}) => {
     [projectToEdit, setProjectToEdit] = useState(initialProject);

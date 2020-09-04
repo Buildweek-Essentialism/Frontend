@@ -58,7 +58,7 @@ useEffect(() => {
                     <p> Importance: {project.importance}</p>
             {/* <p> Value 1: {project.values[0].value_name}</p> */}
             <h4>Value 1: {project.values[0].value_name}</h4>
-            <h4>Value 1: {project.values[1].value_name}</h4>
+            <h4>Value 2: {project.values[1].value_name}</h4>
             
             <button onClick={removeProject(project.id)}>Remove Projects</button>
 <button onClick={()=> editProject(project)}> Edit Project </button>
